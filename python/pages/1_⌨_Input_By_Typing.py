@@ -28,8 +28,8 @@ from tensorflow.python.keras.models import load_model
 
 # Set page config
 st.set_page_config(
-    page_title="IndoorLoc Visualizer",
-    page_icon="📍",
+    page_title="Type input",
+    page_icon="⌨️",
 )
 
 # Set up the app sidebar
@@ -114,13 +114,13 @@ flrs = flrs_all[len_train:]
 
 # row_number = int(input('Insert a number（the row number of test dataset that you choose）'))
 n_rows = test_df.shape[0]
-row_number = st.slider(':violet[Pick a Row from TestSet as input within range of 1110, '
-                       'the testing results will show below]',
-                       min_value=0,
-                       max_value=n_rows-1)
-# row_number = st.number_input('Input a row number',
-#                              min_value=0,
-#                              max_value=n_rows-1)
+# row_number = st.slider(':violet[Pick a Row from TestSet as input within range of 1110, '
+#                        'the testing results will show below]',
+#                        min_value=0,
+#                        max_value=n_rows-1)
+row_number = st.number_input('Input a row number',
+                             min_value=0,
+                             max_value=n_rows-1)
 test_row = test_df.iloc[[row_number]]
 test_rss = test_AP_features[[row_number]]
 
