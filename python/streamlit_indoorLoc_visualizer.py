@@ -34,7 +34,7 @@ st.set_page_config(
 )
 
 # Set up the app sidebar
-st.title(':green[_Visualization tool for Wi-Fi Fingerprinting Indoor Localization_]')
+st.title(':green[_Visualization tool for Wi-Fi Fingerprinting Indoor Localization📍_]')
 st.write("##### You could check out the visualizer and this web app first to familiar with,"
          " then select a row number, here are some tips for you")
 st.write("- Sidebar is used for pages and input methods, you may collapse it. Also you can change settings to wide mode")
