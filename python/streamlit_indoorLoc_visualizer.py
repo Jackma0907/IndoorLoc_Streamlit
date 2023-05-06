@@ -29,7 +29,8 @@ from tensorflow.python.keras.models import load_model
 # Set page config
 st.set_page_config(
     page_title="IndoorLoc Visualizer",
-    page_icon="📍",
+    page_icon="U+1F4CD",
+    layout="wide",
 )
 
 # Set up the app sidebar
