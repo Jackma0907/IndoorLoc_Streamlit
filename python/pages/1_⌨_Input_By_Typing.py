@@ -30,6 +30,7 @@ from tensorflow.python.keras.models import load_model
 st.set_page_config(
     page_title="Type input",
     page_icon="⌨️",
+    layout="wide",
 )
 
 # Set up the app sidebar
