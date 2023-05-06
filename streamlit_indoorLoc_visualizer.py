@@ -3,7 +3,7 @@
 ##
 # @file     streamlit_indoorLoc_visualizer.py
 # @author   Zhengyu Ma
-#
+# @supervisor   Kyeong Soo Kim
 # @brief    A visualization tool for indoor localization system based on streamlit
 #           web interface and DNN-based scalable indoor localization scheme [1].
 #
