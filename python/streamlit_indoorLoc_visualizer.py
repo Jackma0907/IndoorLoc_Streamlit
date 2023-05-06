@@ -170,7 +170,7 @@ if test_row['BUILDINGID'].values[0] == np.argmax(preds[:3]) and test_row['FLOOR'
 ### display input and output
 st.write('_Row number:_\t', row_number)
 if pos_err < 0:
-    st.write(":red[failed to estimated by this data, please change to another row number]")
+    st.warning(":red[failed to estimated by this data, please change to another row number]")
 
 #there are some data test fail 905, 348...
 #do we need to show weighted coordinates they are the same
