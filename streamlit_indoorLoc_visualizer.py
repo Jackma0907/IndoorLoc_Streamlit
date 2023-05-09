@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 ##
-# @file     streamlit_indoorLoc_visualizer.py
-# @author   Zhengyu Ma
+# @file         streamlit_indoorLoc_visualizer.py
+# @author       Zhengyu Ma
 # @supervisor   Kyeong Soo Kim
-# @brief    A visualization tool for indoor localization system based on streamlit
-#           web interface and DNN-based scalable indoor localization scheme [1].
+# @brief        A visualization tool for indoor localization system based on streamlit
+#               web interface and DNN-based scalable indoor localization scheme [1].
 #
-# @remarks  References
-#           [1] Kyeong Soo Kim, Sanghyuk Lee, and Kaizhu Huang,
+# @remarks      References
+#               [1] Kyeong Soo Kim, Sanghyuk Lee, and Kaizhu Huang,
 #               "A scalable deep neural network architecture for multi-building
 #               and multi-floor indoor localization based on Wi-Fi fingerprinting,"
 #               Big Data Analytics, vol. 3, no. 4, pp. 1-17, Apr. 19, 2018.
